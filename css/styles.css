@@ -1,0 +1,69 @@
+.navbar-brand {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Comic Neue';
+}
+
+.menu-title {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-family: 'Comic Neue';
+}
+
+#single-tile {
+	/*height: 1000px;*/
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	/*border: 2px solid #3F0C1F;*/
+	overflow: hidden;
+}
+
+/* LARGE DEVICES */
+
+@media (min-width: 1200px) {
+	.container-fluid {
+		width: 95%;
+	}
+}
+
+/* MEDIUM DEVICES */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container-fluid {
+		width: 95%;
+	}
+}
+
+/* SMALL DEVICES */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container-fluid {
+		width: 95%;
+	}
+}
+
+/* EXTRA SMALL DEVICES */
+
+@media (max-width: 767px) {
+	.row {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+#menu-header {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	margin-top: 10px;
+	font-family: 'Comic Neue';
+}
+
+#menu-text {
+	background-color: #a9a9a9;
+	padding-top: 0;
+	padding-bottom: 15px;
+}
