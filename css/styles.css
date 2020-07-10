@@ -42,6 +42,9 @@
 	.container-fluid {
 		width: 95%;
 	}
+	button {
+		visibility: hidden;
+	}
 }
 
 /* EXTRA SMALL DEVICES */
